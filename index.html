@@ -2,75 +2,98 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal portfolio</title>
-  <link rel="stylesheet" href="reset.css"/>
-  <link rel="stylesheet" href="style.css" />
-  
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danielle Uweri | Front End Developer</title>
 </head>
 
 <body>
     <header>
-        <img class= "grad-pic" src="grad pic internet.jpg" alt="graduation pic"/></img>
-        <h1>Danielle Uweri</h1>
+        <section class="social-icons">
+            <a href="https://github.com/duweri" class="icon github" target="_blank">
+                <img class="githubImg" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                    class="icon" width="75" height="75">
+            </a>
+            <a href="https://www.linkedin.com/in/danielle-uweri-350146257" class="icon linkedin" target="_blank">
+                <img class="LinkedinImg" src="https://cdn-icons-png.flaticon.com/512/61/61109.png" clas="icon"
+                    width="75" height="75">
+                <span><i class="fab fa-linkedin"></i></span>
+            </a>
+        </section>
+        <nav class="menu">
+            <ul>
+                <li><a href="#about" class="text-dark">About</a></li>
+                <li><a href="#work" class="text-dark">Work</a></li>
+                <li><a href="#resume" class="text-dark">Resume</a></li>
+                <li><a href="#contact" class="text-dark">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#resume">Contact Me</a></li>
-            <li><a href="#contact">Resume</a></li>
-        </ul>
-    </nav>
-
+    <h1>Danielle Uweri | Front End Developer</h1>
+    <img class="grad-pic" src="assets\css\image\grad pic internet.jpg" width="450" height="500"
+        alt="graduation pic" /></img>
     <main>
-    <section id="aboutme">
-        <div class="aboutme2">
-            <h2> About Me</h2>
-            <p> I am a recent University of Birmingham graduate and graduated with an upper second class in Human Biology. I discovered during my course that I wanted
-                to explore the technology industry because of how prevelant it is in society as we are constantly interacting with technology everyday, also I love how 
-            creative this industry is which is something that I would enjoy. I am currently doing a 6-month Coding course with the University of Birmigham in order to 
-        give me the experience and foundation required to start my journey. I am very analytical, inquisitive, creative and a good team player which are qualities that
-    I would enjoy contributing to this industry. </p>
-        </div>
-    </section>
+        <section id="about" class="container centre">
+            <h2>About</h2>
+            <p> I am a University of Birmingham graduate who has recently completed a Human Biology degree and graduated
+                from a 6-month Full Stack developer bootcamp too. I discovered during my time at university that I
+                wanted
+                to explore a new industry that was exciting, demanding and transformative. I decided to explore the
+                technology industry because of how prevelant it is in society, also I love how
+                creative and ground breaking this industry is which is something that strongly attracted me. Embarking
+                on this journey led me to find this Full stack web developer bootcamp which
+                gave me the experience and foundation required to open doors for me. I am determined to become a
+                Front-End developer as I enjoy the creative side of coding.
+            </p>
+            <br>
+            <p>I am a highly innovative problem-solver who is keen about developing apps with a focus on designing,
+                building, and maintaining websites from conception to production. Through hands-on projects and
+                collaborative learning environments.
+                I have key strengths in creativity, teamwork, and building projects from ideation to execution. Plus,
+                I thrive when I work in a fast-paced environment and diverse team environment developing solutions and
+                exceeding expectations.
+            </p>
+        </section>
 
-    <section id="work">
-        <div class="work2">
-                <h3 class="worktitle">Work</h3>
-                <div class="work-container">
-                    <div class="item-detail">
-                        <a href="https://www.ipsos.com/en-uk" target="_blank" rel="noopener noreferrer">
-                            <img class="ipsos" src="ipsos.png" alt="Ipsos">
-                           
-                        </a>
-                        <div class="bottom-left">IpsosMori</div>
-                    </div>
+        <section id="resume">
+            <div class="card-one">
+                <div class="container">
+                    <h3><b>Ipsos</b></h3>
+                    <p>Market Researcher</p>
+                </div>
+                <a href="https://www.ipsos.com/en-uk" target="_blank" rel="noopener noreferrer">
+                <img class="ipsos-png" src="assets\css\image\ipsos.png" alt="Ipsos logo" style="width:30%"></a>
+            </div>
 
-                    <div class="item-detail">
-                        <a href="https://github.com/duweri" target="_blank" rel="noopener noreferrer">
-                            <img class = "git" src="GitHub-Mark.png" alt="github">
-                            <div class="bottom-left">My Github profile</div>
-                        </a>
-                    </div>
+                <div class="item-detail">
+                    <a href="https://github.com/duweri" target="_blank" rel="noopener noreferrer">
+                        <img class="git" src="assets\css\image\GitHub-Mark.png" alt="github">
+                        <div class="bottom-left">My Github profile</div>
+                    </a>
+                </div>
             </div>
         </section>
 
-    <section id="resume">
-       <div class="resume2">
-        <h4>Resume</h4>
-       </div>
-    </section>
+        <section id="resume">
+            <div class="resume2">
+                <h4>Resume</h4>
+            </div>
+        </section>
 
-    <section id="contact">
-        <div class="contact2">
-            <h5>Conatct Me</h5>
-        <p> Email: danielleuweri71@gmail.com</p>
-        <p> Phone number: 07535181292</p>
-        <a href= "https://www.linkedin.com/in/danielle-uweri-350146257/" target_blank >LinkedIn profile</a> 
-        </div>
-    </section>
+        <section id="contact">
+            <div class="contact2">
+                <h5>Conatct Me</h5>
+                <p> Email: danielleuweri71@gmail.com</p>
+                <p> Phone number: 07535181292</p>
+                <a href="https://www.linkedin.com/in/danielle-uweri-350146257/" target_blank>LinkedIn profile</a>
+            </div>
+        </section>
     </main>
 
 </body>
